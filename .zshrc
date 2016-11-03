@@ -54,7 +54,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 #export PATH=$PATH:"/Users/jlabo/.rvm:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/jlabo/Library/Python/2.7/bin"
-export PATH=$PATH:"/Users/jlabo/.rvm/gems/ruby-2.0.0-p598/bin:/Users/jlabo/.rvm:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/bin/python"
+export PATH=$PATH:"${HOME}/.rvm/gems/ruby-2.0.0-p598/bin:${HOME}/.rvm:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/bin/python"
 #
 # Enable dircolors
 eval `dircolors ~/.dir_colors`
