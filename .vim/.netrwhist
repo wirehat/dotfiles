@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/jlabo/git/puppet/environments/production/modules/apt/manifests'
+let g:netrw_dirhist_2='/usr/local/lib/python2.7/site-packages/powerline'
+let g:netrw_dirhist_3='/Users/jlabo/git/puppet/environments/production/modules/nagios/manifests'
