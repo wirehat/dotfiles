@@ -6,7 +6,6 @@ let g:Powerline_symbols = 'fancy'
 execute pathogen#infect()
 syntax enable 
 set background=dark
-
 colorscheme solarized
 
 "========== Powerline config=========
