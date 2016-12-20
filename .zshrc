@@ -48,13 +48,13 @@ ZSH_THEME="agnoster"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(aws git brew) 
+plugins=(aws git brew gpg-agent) 
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 #export PATH=$PATH:"/Users/jlabo/.rvm:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/jlabo/Library/Python/2.7/bin"
-export PATH=$PATH:"${HOME}/.rvm/gems/ruby-2.0.0-p598/bin:${HOME}/.rvm:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/bin/python"
+export PATH=$PATH:"${HOME}/.rvm:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/bin/python"
 #
 # Enable dircolors
 eval `dircolors ~/.dir_colors`
@@ -73,9 +73,7 @@ eval `dircolors ~/.dir_colors`
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # Powerline prompt for zsh
-#if [[ -r ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
-#  source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
-#fi
+#. /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
 # Settings from ~/.profile
 source ~/.profile
