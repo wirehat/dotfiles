@@ -1,7 +1,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:Powerline_symbols='fancy'
+let g:Powerline_symbols = 'fancy'
 let g:solarized_bold=0
 execute pathogen#infect()
 syntax enable 
@@ -38,6 +38,7 @@ set softtabstop=2
 set expandtab
 set shiftwidth=2
 set backspace=2
+set smarttab
 
 "========== Turn off swap files ==============
 set noswapfile
