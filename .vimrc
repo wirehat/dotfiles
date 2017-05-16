@@ -1,7 +1,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:Powerline_symbols = 'fancy'
+let g:Powerline_symbols='fancy'
 let g:solarized_bold=0
 execute pathogen#infect()
 syntax enable 
@@ -32,6 +32,7 @@ set noerrorbells visualbell t_vb=
 "======== Indentation ===========
 filetype on
 filetype plugin on
+filetype plugin indent on
 
 set autoread
 set softtabstop=2
