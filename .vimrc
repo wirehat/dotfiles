@@ -3,7 +3,6 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:Powerline_symbols='fancy'
 let g:solarized_bold=0
-execute pathogen#infect()
 syntax enable 
 set background=dark
 colorscheme solarized
