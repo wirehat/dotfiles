@@ -48,16 +48,16 @@ ZSH_THEME="agnoster"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(aws git brew gpg-agent) 
+plugins=(git brew) 
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 #export PATH=$PATH:"/Users/jlabo/.rvm:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/jlabo/Library/Python/2.7/bin"
-export PATH=$PATH:"${HOME}/.rvm:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/bin/python"
+export PATH="${HOME}/.rvm:/usr/local/sbin:/usr/local/bin/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:$PATH"
 #
 # Enable dircolors
-eval `dircolors ~/.dir_colors`
+eval `gdircolors ~/.dir_colors`
 
 # # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
