@@ -48,13 +48,18 @@ ZSH_THEME="agnoster"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git brew) 
+plugins=(zsh-autosuggestions) 
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-#export PATH=$PATH:"/Users/jlabo/.rvm:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/jlabo/Library/Python/2.7/bin"
-export PATH="${HOME}/.rvm:/usr/local/sbin:/usr/local/bin/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:$PATH"
+export PATH="${HOME}/.rvm:/usr/local/sbin:/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/${HOME}/bin:/opt/X11/bin:$PATH"
+
+# Set Python path and EDITOR variable
+PYTHONPATH=/usr/local/opt/python/libexec/bin/python
+EDITOR=vim
+
+export PYTHONPATH EDITOR
 #
 # Enable dircolors
 eval `gdircolors ~/.dir_colors`
@@ -72,13 +77,13 @@ eval `gdircolors ~/.dir_colors`
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-# Powerline prompt for zsh
-#. /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
-
 # Settings from ~/.profile
 source ~/.profile
 source ~/.bash_profile
 
 #RVM
-
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+sqsubnet () {
+    bundle exec bin/sso-dnsdb get record --subnet $1 | grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn} content | sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n
+}
