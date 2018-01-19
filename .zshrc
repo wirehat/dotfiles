@@ -83,7 +83,3 @@ source ~/.bash_profile
 
 #RVM
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-sqsubnet () {
-    bundle exec bin/sso-dnsdb get record --subnet $1 | grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn} content | sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n
-}
