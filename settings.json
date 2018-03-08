@@ -1,0 +1,20 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontFamily": "DejaVu Sans Mono",
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "boundary",
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.integrated.fontSize": 16,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#829496",
+        "statusBar.background": "#1b8bd2",
+        "statusBar.foreground": "#fdf6e3"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "vscode-great-icons",
+    "python.pythonPath": "/usr/local/opt/python/libexec/bin/python",
+    "workbench.colorTheme": "Solarized Dark"
+}
