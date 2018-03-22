@@ -16,6 +16,6 @@
     },
     "workbench.startupEditor": "newUntitledFile",
     "workbench.iconTheme": "vscode-great-icons",
-    "python.pythonPath": "/usr/local/opt/python/libexec/bin/python",
+    "python.pythonPath": "/usr/local/opt/python2/libexec/bin/python",
     "workbench.colorTheme": "Solarized Dark"
 }
