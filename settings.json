@@ -7,7 +7,8 @@
     "editor.wordWrap": "on",
     "editor.renderWhitespace": "boundary",
     "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontWeightBold": "normal",
+    "terminal.integrated.fontSize": 17,
     "workbench.colorCustomizations": {
         "editorCursor.foreground": "#829496",
         "statusBar.background": "#1b8bd2",
