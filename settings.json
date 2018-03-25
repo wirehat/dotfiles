@@ -8,8 +8,7 @@
     "editor.renderWhitespace": "boundary",
     "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
     "terminal.integrated.fontSize": 17,
-    "terminal.integrated.fontWeightBold": "normal",
-    "terminal.integrated.fontSize": 17,
+    "terminal.integrated.shellArgs.osx": ["-l"],
     "workbench.colorCustomizations": {
         "editorCursor.foreground": "#829496",
         "statusBar.background": "#1b8bd2",
@@ -20,5 +19,4 @@
     "python.pythonPath": "/usr/local/bin/python",
     "workbench.colorTheme": "Solarized Dark",
     "puppet.puppetAgentDir": "/usr/local/bin/puppet"
-    "workbench.colorTheme": "Solarized Dark"
 }
