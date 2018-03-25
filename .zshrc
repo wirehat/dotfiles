@@ -53,10 +53,10 @@ plugins=(zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-export PATH="${HOME}/.rvm:/usr/local/sbin:/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/${HOME}/bin:/opt/X11/bin:$PATH"
+export PATH="${HOME}/.rvm:/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/${HOME}/bin:/opt/X11/bin:$PATH"
 
 # Set Python path and EDITOR variable
-PYTHONPATH=/usr/local/opt/python/libexec/bin/python
+PYTHONPATH=/usr/local/bin/python
 EDITOR=vim
 
 export PYTHONPATH EDITOR
