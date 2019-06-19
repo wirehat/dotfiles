@@ -3,6 +3,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:Powerline_symbols='fancy'
 let g:solarized_bold=0
+let g:solarized_termtrans=1
 syntax enable 
 set background=dark
 colorscheme solarized
